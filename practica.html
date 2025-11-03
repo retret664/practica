@@ -9,18 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="D:\TratsiakYaroslav\practica\practica.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="D:\новые проекты\project2\practica\practica.css">
 </head>
     <body class="container">
          
       <header>
         <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand">Ideas</a>
+            <a class="navbar-brand" style="display: grid; grid-template-columns: repeat(5,auto); gap: 40px;">
+              <div style="display: grid; grid-template-rows: 16px 16px; grid-template-columns: auto; " >
+  <div><img src="Arch (1).png"></div>
+  <div style="padding-left: 18.12px;"><img src="move (1).png"></div> </div> 
+<div style="font-size: 14px;"><br>How it Works</div>
+<div style="font-size: 14px;"><br>Design Gallery</div>
+<div style="font-size: 14px;"><br>Architects</div>
+<div style="font-size: 14px;"><br>Articles</div>
+</a>
             <form class="d-flex" role="search">
+              <img style="width: 20px; height: 20px; margin-top: 10px; " src="Vector.png" >
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">Sign</button>
             </form>
           </div>
         </nav>
@@ -35,7 +52,7 @@
     <p >100% guaranteed build safe,<br> comfortable and transparent with a<br> project management for the best result</p>
 </div>
 <div style="padding-top:40px ;">
-    <button class="animate_btn" >Free consultation</button>
+    <button class="animate_btn" style="color: azure;">Free consultation</button>
 </div>
 </div>
 <div > 
@@ -46,34 +63,141 @@
 </section>
 <section>
   <hr>
- <h2 style="padding-top: 25px;"> Build professional <br> valuable room</h2>
-</section>
-<section class="second_block">
+ <h2 style="padding-top: 25px; padding-left: 10%;"> Build professional <br> valuable room</h2>
+
+<div id="carouselExample" class="carousel slide" style="width: 305px; display: block; margin-left: auto; margin-right: auto;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img  style=" height: 432px; width: 305px;" src="img-01.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img  style=" height: 432px; width: 305px;" src="img-02.png"  class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img  style=" height: 432px; width: 305px;" src="img-03.png" class="d-block w-100">
+    </div>
+     <div class="carousel-item">
+      <img  style=" height: 432px; width: 305px;" src="img-04.png"  class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+</section >
+<section class="second_block" style="padding-left: 136px; padding-top: 160px;">
 <div>
 <img class="img2" src="e61c0864a832985b87bc5ab02f31b60c32ae3dd0.png" >
 </div>
-<div class="second_small_block" style="padding-left: 250px;">
+<div class="second_small_block" style="padding-left: 10%">
 
   <div class="text">
     <p>Build your needs <br>
 with Archmove</p>
   </div>
   <div class="ppict_block">
-<div><img src="icon.png">  </div>
-<div >
-  100% guaranteed project completion
+<div style="grid-column:1 ; grid-row: 1;"><img src="icon.png" >  </div>
+<div style="grid-column:2 ; grid-row: 1;">
+  <b>100% guaranteed project completion</b><br>
+  Build safe, comfortable and<br> transparent with a project management<br> application with a joint account.
 </div>
-<div>Build safe, comfortable and<br> transparent with a project management<br> application with a joint account.
-</div>
   </div>
-  <div>
-    text
-  </div>
-  <div style="grid-column: 1;">
-    text
-  </div>
+  
+    <div class="ppict_block" style="gap: 20px;">
+<div style="grid-column:1 ; grid-row: 1;"><img src="icon2.png" >  </div>
+<div style="grid-column:2 ; grid-row: 1;">
+  <b>No additional fees</b><br>
+  There are no hidden costs. The value<br> of the offer you get is the value you<br> paid.
 </div>
 
+  </div>
+    <div class="ppict_block" style="gap: 20px;">
+<div style="grid-column:1 ; grid-row: 1;"><img src="icon3.png" >  </div>
+<div style="grid-column:2 ; grid-row: 1;">
+  <b>Get escort from the Team</b><br>
+ Monitor reports from the Arsitag team<br> who check directly in the field.
+</div>
+
+  </div>
+ 
+ 
+ 
+
+
+</section>
+<section">
+   <div style="text-align: center;" >
+    <button class="animate_btn" style="color: azure;">Free consultation</button>
+</div>
+</section>
+<hr>
+<section  style="margin-top: 140px;">
+
+ <div class="text" style="padding-left: 165px;">
+   Sound Too Good<br> To Be True?
+  </div>
+  <div style="display: grid; grid-template-columns:auto auto; grid-template-rows:  auto; padding-left: 405px; padding-top: 64px;">
+<div>
+  <img src="“.png"> 
+</div>
+<div class="text2">
+  “We just wanted to thank you for this fantastic website! We are so grateful for
+   being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.”
+</div>
+  </div>
+  <div style="font-size: 16px; text-align: center; padding-top: 59px;">
+    Adam Morph — CEO Alfatech
+  </div>
+</section>
+<hr>
+<section style="padding-top: 144px; display: grid; grid-template-columns: auto auto; gap: 48px;">
+<div>
+  <img src="img1.png">
+</div>
+<div style="display: grid; grid-template-columns: auto; grid-template-rows:192px auto; padding-top: 194px; gap: 48px; padding-left: 48px; padding-right: 136px;">
+ <div class="text3" style="text-align: center;" >
+  Realize your 
+dream project
+with<span style="color: #FD665E;"> Archmove</span>
+</div>
+<div style="text-align: center;">
+    <button class="animate_btn"   style="color: azure; ">Free consultation</button>
+</div>
+</div>
+
+</section>
+<hr>
+<section style="padding-top: 128px;">
+<div style="padding-left: 136px;">
+  <b style="font-size: 48px;">Our Partners</b>
+</div>
+<div style="text-align: center; padding-top: 40px;">
+  <img src="logos.png">
+</div>
+</section>
+<hr>
+<section style=" display: grid; grid-template-columns:64px 90px 28px 77px  96px auto; grid-template-rows: auto; padding-top: 160px; gap: 40px;">
+<div style="font-size: 14px; width: 64px;">About Us</div>
+<div style="font-size: 14px; width: 90px;">How it Works</div>
+<div style="font-size: 14px; width: 28px;">FAQ</div>
+<div style="font-size: 14px; width: 77px;">Contact Us</div>
+<div style="font-size: 14px; width: 96px;">Privacy Policy</div>
+<div style="display: grid; grid-template-rows: auto auto; grid-template-columns: auto; padding-left: 540px;" >
+  <div><img src="Arch.png"></div>
+  <div style="padding-left: 18.12px;"><img src="move.png"></div>
+</div>
+<div></div>
 </section>
         <footer>
 
